@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<style>
+        body{
+            overflow: hidden;
+           
+            background-image: url(ipone12.gif);
+            background-repeat: no-repeat;
+            background-size: 70%;
+        }
+        #heading{
+            color:black;
+            position: relative;
+            width: 350px;
+            top: 30px;
+            text-align: center; 
+            color:white;
+        }
+        #division{
+            width: 350px;
+            height: 270px;
+            background-color: rgba(225, 236, 16, 0.2);
+            position: absolute;
+            top: 200px;
+            left: 70%;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+        .buttons{
+            background-color:gold;
+            width: 150px;
+            height: 30px;
+            position: relative;
+            top: 30px;
+            left: 6vw;
+            outline: none;
+            border: none;
+            color:blue;
+            border-radius: 10px;
+            font-size: 20px;
+            
+        }
+        #video{
+            width: 130vw;
+            height: 130vh;
+            position:absolute;
+        }
+        .inputs{
+            width: 150px;
+            height: 30px;
+            color: blue;
+            background-color: gold;
+            border: none;
+            outline: none;
+            margin-top: 25px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        #span{
+            position: relative;
+            right: 80px;
+            color: white;
+        }
+        .inputs::placeholder{
+            color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+	  <div id="division">
+        <form action="login" method="post">
+             <h1 id="heading">Apple Login</h1>
+             <input type="email" name="email" id="" class="inputs" required placeholder="email" value="sai@12.com"><br>
+             <input type="password" name="password" id="" class="inputs" required placeholder="password" value="sai123"><br>
+             <button type="submit" class="buttons">Login</button>
+             <span id="span">Don,t have account?</span><a href="SignUp.html" id="span"> SignUp</a>
+        </form>
+     </div>
+</body>
+</html>
