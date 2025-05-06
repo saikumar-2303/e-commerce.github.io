@@ -25,7 +25,7 @@ public class SingUp extends HttpServlet
 		String name= req.getParameter("name");
 		long num=Long.parseLong(req.getParameter("number"));
 		
-		String url = "jdbc:mysql://localhost:3306/storemanager";
+		String url = "sql8.freesqldatabase.com";
 		String user="root";
 		String pass="root";
 		
